@@ -17,7 +17,7 @@
 - Bulma CSS (https://bulma.io)
 
 # Info
-- check demo at: https://jalil-wedding.netlify.app/
+- check demo at: https://jalil-nikah.netlify.app/
 
 
 # Fonts

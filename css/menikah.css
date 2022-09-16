@@ -41,7 +41,7 @@ html {
 
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("/images/nurlinda-jalil.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -55,7 +55,7 @@ html {
   font-family: 'Rouge Script', sans-serif;
   font-weight: 700;
   transform: rotate(-2deg);
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 5px;
   color: whitesmoke;
 }
@@ -63,7 +63,7 @@ html {
 .hero .subtitle {
   padding: 35px;
   color: whitesmoke;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .hero .tempatwaktu {
@@ -325,6 +325,13 @@ vertical-align: middle;
   font-family: 'Raleway', sans-serif;
 }
 
+.kediaman {
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
 .tanggal-angka {
   font-size: 5rem;
   font-family: 'Raleway', sans-serif;
@@ -565,7 +572,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/gallery-03.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -574,7 +581,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/gallery-03.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -582,15 +589,15 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/gallery-03.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/gallery-03.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -598,7 +605,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/gallery-03.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -607,7 +614,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/gallery-03.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -651,4 +658,14 @@ body.preloader-site {
   vertical-align: middle;
   text-align: center;
   padding: 10px;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("/images/nurlinda-jalil-phone.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
 }

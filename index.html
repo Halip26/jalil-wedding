@@ -97,11 +97,13 @@
             <h2 class="title">Nurlinda Fitriyanti & Abd. Jalil</h2>
             <h4 class="subtitle tempatwaktu">
               
-                Sabtu, 16 Oktober 2022 
+                Minggu, 16 Oktober 2022 
                 </br>
-                Rumah Jalil, Kab. Sidrap
-                </br>
-                Sulawesi Selatan
+                Kediaman Mempelai Pria 
+                <br>
+                Dusun II Ponrawe, Desa Anabanna, Kec. Pitu Riawa 
+                <br>
+                Kab. Sidrap, Sulawesi Selatan
               
             </h4>
           </div>
@@ -128,7 +130,56 @@
               var harih = '10/16/2022 09:00:00';
 
               $('#hitungmundur').countdown({
-                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                date: harih, // TODO Date format: 10/16/2022 17:00:00
+                offset: +8, // TODO Your Timezone Offset
+                day: 'Hari',
+                days: 'Hari'
+              }, function () {
+                alert('Done!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+          <!-- Begin Hero Content-->
+          <div class="container has-text-centered">
+            <h4 class="subtitle tempatwaktu">
+              
+              Sabtu, 08 Oktober 2022 
+              </br>
+              Kediaman Mempelai Wanita 
+              <br>
+              Desa Limbo Makmur, Kec. Bumi Raya, Kab. Morowali
+              </br>
+              Sulawesi Tengah
+            
+          </h4>
+          </div>
+                     
+          <!-- Start Countdown -->   
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur1" >
+              <li><span class="days">00</span><p class="days_text">Hari</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 09:00:00';
+              var harih = '10/08/2022 09:00:00';
+
+              $('#hitungmundur1').countdown({
+                date: harih, // TODO Date format: 10/16/2022 17:00:00
                 offset: +8, // TODO Your Timezone Offset
                 day: 'Hari',
                 days: 'Hari'
@@ -426,7 +477,7 @@
               <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
                 Kami yang berbahagia,
                 <br>
-                <a class="instagram":" href="https://instagram.com/abcde_jalilll/" target="_blank" alt="Instagram Sherly">
+                <a class="instagram" href="https://instagram.com/abcde_jalilll/" target="_blank" alt="Instagram Sherly">
                   <i class="fab fa-instagram"></i> @nurlinda_fitriyanti
                 </a>
                 &nbsp

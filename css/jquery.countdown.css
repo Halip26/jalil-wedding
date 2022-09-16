@@ -23,3 +23,28 @@ ul#hitungmundur li p {
 	color: #fff;
 	font-size: 16px;
 }
+ul#hitungmundur1 {
+	list-style: none;
+	margin: 30px 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+ul#hitungmundur1 li {
+	display: inline-block;
+}
+ul#hitungmundur1 li span {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 30px;
+}
+ul#hitungmundur1 li.separator {
+	font-size: 30px;
+	line-height: 25px;
+	vertical-align: top;
+}
+ul#hitungmundur1 li p {
+	color: #fff;
+	font-size: 16px;
+}

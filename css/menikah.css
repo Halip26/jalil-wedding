@@ -572,7 +572,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
+  background-image: linear-gradient(rgba(255, 109, 194, 0.384), rgba(124, 41, 41, 0.733)), url("../images/1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -581,7 +581,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
+  background-image: linear-gradient(rgba(28, 95, 172, 0.384), rgba(105, 0, 91, 0.733)), url("../images/2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -589,7 +589,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
+  background-image: linear-gradient(rgba(218, 214, 4, 0.438), rgba(15, 40, 49, 0.733)), url("../images/3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -597,7 +597,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
+  background-image: linear-gradient(rgba(43, 170, 243, 0.438), rgba(148, 5, 112, 0.733)), url("../images/4.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -605,23 +605,28 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
+  background-image: linear-gradient(rgba(247, 184, 11, 0.445), rgba(0, 146, 139, 0.527)), url("../images/5.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
-
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../images/nurlinda-jalil-phone.jpg");
+  background-image: linear-gradient(rgba(228, 44, 182, 0.233), rgba(70, 4, 4, 0.527)), url("../images/6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
-
+.foto7 {
+  background-image: linear-gradient(rgba(245, 146, 192, 0.089), rgba(59, 8, 48, 0.288)), url("../images/7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height: 24rem;
+}
 
 .title-foto {
   font-size: 18pt;
@@ -637,7 +642,7 @@ body.preloader-site {
   font-weight: 700;
   font-size: 14pt;
   font-weight: 600;
-  margin-top: 15px;
+  padding-top: 240px;
   text-align: left;
   color: white;
 }
